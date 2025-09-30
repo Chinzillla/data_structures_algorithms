@@ -1,43 +1,61 @@
 # Question:
-
-Date:
-
-Problem Link:
+- Attempt: []()
+- Date: 
+- Problem Link:
 
 ## Phase 1: Set up
 
-Understanding the Question:
+### Understanding the Question:
 
-Constraints:
+### Constraints:
 
-Edge Cases:
+### Edge Cases:
 
-Writing Test Cases:
+### Writing Test Cases:
 
 ## Phase 2: Approach
 
-Possible Approaches:
+### Possible Approaches:
 
-Estimated Time Complexity:
+Brute Force Approach:
 
-Best approach:
+Optimized Approach:
 
-Skeleton Structure:
+### Estimated Time Complexity:
+
+Brute Force Approach
+- Time complexity:
+- Space complexity:
+
+Optimized Approach
+- Time complexity:
+- Space complexity:
+
+### Best approach:
+ 
+### Skeleton Structure:
+
+1.
+2.
+3.
+4.
+5.
 
 ## Phase 3: Code
 
-Coding the solution:
+### Coding the solution:
 
-Reviewing Code:
+[]()
 
-Potential better approach:
+### Debugging Code:
 
-Debugging Code:
+### Reviewing Code:
+
+### Potential better approach:
 
 ## Phase 5: Time Complexity
 
-Big-Thetha:
+### Big-O:
 
-Big-Omega:
-
-Big-O:
+- Time complexity:
+- Space complexity:
