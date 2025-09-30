@@ -3,7 +3,7 @@ import sys
 
 sys.path.append('../')
 
-from src.two_sum import Solution
+from src.two_sum.two_sum import Solution
 
 class TestTwoSum(unittest.TestCase):
     
