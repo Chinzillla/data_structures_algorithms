@@ -6,19 +6,17 @@ def remove_duplicates(nums: List[int]) -> int:
 
     if (nums[0] == nums[-1]):
         return 1
-    
-    last_unique_value = nums[0]
-    result = 1
+
+    result = 0
 
     for i in range(1, len(nums)):
         if nums[i] > 100 or nums[i] < -100:
             raise ValueError("Element is out bounds, must be between -100 and 100 inclusive")
-        if nums[i] != last_unique_value:
-            nums[result] = nums[i]
-            last_unique_value = nums[i]
+        if nums[i] != nums[result]:
             result += 1
+            nums[result] = nums[i]
 
-    return result
+    return result + 1
     
 def main():
     nums1 = [1,1,1,1,1,1,1,1,1]
