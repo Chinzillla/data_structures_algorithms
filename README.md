@@ -4,8 +4,16 @@ Each question contains multiple attempts and a comprehensive document on my appr
 
 [View Document Tempate](./TEMPLATE.md)
 
-## Command to test:
+## Test Commands:
+
+#### Single Test
 
 ```bash
 python -m unittest tests/test_something.py
+```
+
+#### All test
+
+```bash
+python -m unittest discover -s tests -p "test_*.py"
 ```
