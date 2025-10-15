@@ -4,7 +4,7 @@ import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from src.lined_list_cycle.solution import Node, Solution
+from src.linked_list_cycle.solution import Node, Solution
 
 
 class TestLinkedListCycle(unittest.TestCase):
