@@ -2,6 +2,7 @@ from collections import Counter, defaultdict
 from typing import Tuple
 
 class Solution:
+    @staticmethod
     def get_minimum_window(original: str, check: str) -> str:
         original_len, check_len = len(original), len(check)
         if original_len < check_len:
