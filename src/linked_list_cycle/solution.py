@@ -6,12 +6,12 @@ class Node:
 class Solution:
     def has_cycle(nodes: Node) -> bool:
         slow = nodes
-        fast = nodes.next.next
+        fast = nodes
 
         while fast and fast.next:
-            if fast.val == slow.val:
-                return True
-            fast = fast.next.next
             slow = slow.next
+            fast = fast.next.next
+            if fast == slow:
+                return True
         
         return False
