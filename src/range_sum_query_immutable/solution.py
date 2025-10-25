@@ -10,6 +10,7 @@ class solution:
 
         return prefix_sum
     
+    @staticmethod
     def range_sum_query_immutable(nums: list[int], left: int, right: int) -> int:
         prefix_sum = solution.initialize_prefix_arr(nums)
         return prefix_sum[right + 1] - prefix_sum[left]
