@@ -4,6 +4,7 @@ class Node:
         self.next = next
 
 class Solution:
+    @staticmethod
     def has_cycle(nodes: Node) -> bool:
         slow = nodes
         fast = nodes
