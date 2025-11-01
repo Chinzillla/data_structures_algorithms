@@ -1,5 +1,7 @@
 # Longest Contiguous Houses Problem
 
+### Leetcode Adjacent Problem Link: [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/)
+
 ### Problem: Building Houses on Lots
 
 You are given an array of queries where each element represents the position of a house being built on a street. After each house is built, determine the length of the longest contiguous segment of houses. Each query is guaranteed to have a unique position for a house.

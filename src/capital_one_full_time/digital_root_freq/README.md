@@ -1,5 +1,9 @@
 # Digital Root Frequency Problem
 
+### Leetcode Adjacent Problem Link: 
+- [https://leetcode.com/problems/add-digits/](https://leetcode.com/problems/add-digits/)
+- [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)
+
 ### Problem: Sum Digits Until Single & Find Frequency
 
 Given an array of positive integers, for each number: Sum its digits repeatedly until you get a single digit (digital root). Count the frequency of each resulting single digit. Return the digit with the highest frequency. If multiple digits have the same frequency, return the highest digit.

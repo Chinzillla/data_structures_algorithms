@@ -1,5 +1,7 @@
 # Text Alignment Problem
 
+### Leetcode Adjacent Problem Link: [https://leetcode.com/problems/text-justification/](https://leetcode.com/problems/text-justification/)
+
 ### Problem: Multi-Paragraph Text Formatting with Individual Alignments
 
 Given a 2D array where each sub-array represents a paragraph containing individual words, format the text with a maximum line width. Each paragraph has its own alignment specification. Words that would cause a line to exceed the width limit must wrap to the next line within the same paragraph.
