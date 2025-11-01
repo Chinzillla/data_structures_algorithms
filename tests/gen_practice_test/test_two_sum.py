@@ -3,10 +3,10 @@ import sys
 import os
 
 # Add project root to path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.two_sum.two_sum_1 import two_sum_hash_map
-from src.two_sum.two_sum_2 import two_sum_two_pointer
+from src.gen_practice.two_sum.two_sum_1 import two_sum_hash_map
+from src.gen_practice.two_sum.two_sum_2 import two_sum_two_pointer
 
 
 class TestTwoSumHashMap(unittest.TestCase):

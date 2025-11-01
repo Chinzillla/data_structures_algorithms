@@ -2,9 +2,9 @@ import unittest
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.two_sum_II.two_sum_II import two_sum_II
+from src.gen_practice.two_sum_II.two_sum_II import two_sum_II
 
 
 class TestTwoSumII(unittest.TestCase):

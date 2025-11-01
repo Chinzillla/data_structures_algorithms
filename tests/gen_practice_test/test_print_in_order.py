@@ -4,8 +4,8 @@ import unittest
 import threading
 import time
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.print_in_order.solution import Foo
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from src.gen_practice.print_in_order.solution import Foo
 
 
 class TestPrintInOrder(unittest.TestCase):

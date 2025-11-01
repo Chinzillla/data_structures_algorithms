@@ -2,9 +2,9 @@ import os
 import sys
 import unittest
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.linked_list_cycle.solution import Node, Solution
+from src.gen_practice.linked_list_cycle.solution import Node, Solution
 
 
 class TestLinkedListCycle(unittest.TestCase):

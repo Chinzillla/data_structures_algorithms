@@ -2,9 +2,9 @@ import unittest
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.find_pivot_int.solution import Solution
+from src.gen_practice.find_pivot_int.solution import Solution
 
 
 class TestFindPivotInteger(unittest.TestCase):
