@@ -3,7 +3,7 @@ import sys
 import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.Digital_root_freq_problem.solution import Solution
+from src.digital_root_freq.solution import Solution
 
 
 class TestDigitalRootFreq(unittest.TestCase):
