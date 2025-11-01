@@ -2,9 +2,9 @@ import os
 import sys
 import unittest
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.minimum_window_substring.solution import Solution
+from src.gen_practice.minimum_window_substring.solution import Solution
 
 
 class TestMinimumWindowSubstring(unittest.TestCase):

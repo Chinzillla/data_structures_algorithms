@@ -3,9 +3,9 @@ import sys
 import os
 
 # Add project root to path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.product_except_self.solution import Solution
+from src.gen_practice.product_except_self.solution import Solution
 
 
 class TestProductExceptSelf(unittest.TestCase):

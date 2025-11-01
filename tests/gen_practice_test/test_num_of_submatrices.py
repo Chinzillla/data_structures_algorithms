@@ -2,8 +2,8 @@ import os
 import sys
 import unittest
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from src.num_of_submatrices_sum_target.solution import Solution
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from src.gen_practice.num_of_submatrices_sum_target.solution import Solution
 
 
 class TestNumSubmatrixSumTarget(unittest.TestCase):

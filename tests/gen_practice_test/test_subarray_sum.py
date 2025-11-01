@@ -2,9 +2,9 @@ import unittest
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.subarray_sum import subarray_sum
+from src.gen_practice.subarray_sum import subarray_sum
 
 class TestSubarraySum(unittest.TestCase):
     def test_basic_case(self):

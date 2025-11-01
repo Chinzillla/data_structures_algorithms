@@ -2,9 +2,9 @@ import unittest
 import sys
 import os
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
-from src.range_sum_query_2d_immutable.soluition import NumMatrix
+from src.gen_practice.range_sum_query_2d_immutable.soluition import NumMatrix
 
 
 class TestNumMatrix(unittest.TestCase):
