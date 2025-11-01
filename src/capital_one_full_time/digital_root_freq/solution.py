@@ -10,7 +10,7 @@ class Solution:
             number = temp_sum
         return number
     
-    def find_highest_freq(self, frequency_map: Dict) -> int:
+    def find_highest_freq(self, frequency_map: Dict[int, int]) -> int:
         max_freq = 0
         result_digit = 0
         
@@ -20,7 +20,7 @@ class Solution:
                 result_digit = digit
         return result_digit
     
-    def digital_root_freq(self, numbers: List) -> int:
+    def digital_root_freq(self, numbers: List[int]) -> int:
         freq = {}
         for num in numbers:
             num = self.digital_sum(num)

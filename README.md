@@ -9,11 +9,23 @@ Each question contains multiple attempts and a comprehensive document on my appr
 #### Single Test
 
 ```bash
-python -m unittest tests/test_something.py
+python -m unittest tests/capital_one_test/{test_file_name}.py
+```
+
+Example:
+
+```bash
+python -m unittest tests/capital_one_test/test_digital_root_freq.py
 ```
 
 #### All test
 
 ```bash
-python -m unittest discover -s tests -p "test_*.py"
+python -m unittest discover -s tests/{insert_test_folder_name} -p "test_*.py"
+```
+
+Example:
+
+```bash
+python -m unittest discover -s tests/capital_one_test -p "test_*.py"
 ```
